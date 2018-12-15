@@ -300,7 +300,7 @@ section a {
     background: blue;
   }
 
-#shadow:first-of-type {
+#shadow {
   float: left;
     background: yellow;
     width: 33.333%;}
