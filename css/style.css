@@ -262,7 +262,25 @@ section {
 section a {
   color: #555;
   text-decoration: underline;
-}
+  
+  #brand {
+    float:left;
+  }
+  
+  #archive {
+    float:right;
+  }
+  
+  .border_right {
+    float: left;
+    column-width: auto;
+    display: table-column;
+  }
+  
+  #details wrapper {
+    background: blue;
+  }
+
 
 /********** Details **********/
 
@@ -277,6 +295,8 @@ section a {
   background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* IE10+ */
   background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 99%); /* W3C */
+  column-count: 3;
+  
 }
 
 #details a:link, #details a:visited {
