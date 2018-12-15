@@ -310,7 +310,10 @@ section a {
   width: 33.333%;
 }
 
-
+#blue-heels {
+  float: left;
+  width: 33.333%;
+}
 
 /********** Details **********/
 
