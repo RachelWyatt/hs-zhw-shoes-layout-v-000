@@ -316,7 +316,8 @@ section a {
 
 #blue-heels {
   float: left;
-  width: 32%;
+  width: 32%
+    margin: 2% 0 0 2%;
 }
 
 /********** Details **********/
