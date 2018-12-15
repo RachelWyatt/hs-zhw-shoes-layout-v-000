@@ -301,6 +301,10 @@ section a {
   }
 }
 
+.shadow {
+  column-gap: 1px;
+}
+
 #lady-bugs {
   float: left;
   width: 32%;
