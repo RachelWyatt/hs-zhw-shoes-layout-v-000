@@ -307,7 +307,8 @@ section a {
 
 #lady-bugs {
   float: left;
-  width: 32%;}
+  width: 32%;
+column-gap: 10px}
 
 #skate-shoe {
   float: left;
